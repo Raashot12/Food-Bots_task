@@ -1,0 +1,75 @@
+/*  styling scrollbars  */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #a5aaad;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a29;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d2c5ab;
+}
+
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700&display=swap");
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  --clr-primary: #2a2a29;
+  --clr-primary-dark: hsl(205, 100%, 21%);
+  --clr-primary-light: hsl(205, 84%, 74%);
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --ff-primary: "Catamaran", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --large-screen-width: 1170px;
+  --small-screen-width: 90vw;
+  --fixed-width: 50rem;
+}
+.container {
+  max-width: var(--fixed-width);
+  width: 100%;
+  margin: 0 auto;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

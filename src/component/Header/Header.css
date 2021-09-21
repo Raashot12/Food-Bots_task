@@ -1,0 +1,75 @@
+/*
+=============== 
+Navbar
+===============
+*/
+nav {
+  background: var(--clr-primary);
+  padding: 1.25rem 1rem;
+  cursor: pointer;
+}
+.nav-center {
+  max-width: var(--fixed-width);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h3 {
+  margin-bottom: 0;
+  color: var(--clr-white);
+}
+.nav-container {
+  display: block;
+  position: relative;
+}
+nav svg {
+  width: 2rem;
+  fill: var(--clr-white);
+}
+.amount-container {
+  position: absolute;
+  top: -0.75rem;
+  right: -0.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: var(--clr-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-amount {
+  color: var(--clr-white);
+  margin-bottom: 0;
+  font-size: 1.25rem;
+}
+
+.flex-profile-cart {
+  display: flex;
+  align-items: center;
+}
+.flex-profile-cart img {
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+.btn-order-summary {
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  color: green;
+  padding: 0.3rem;
+  cursor: pointer;
+  transition: all 1.5s ease;
+  font-weight: bold;
+}
+.btn-order-summary:hover {
+  background-color: transparent;
+  border: 1px solid red;
+  color: white;
+}
+.profile:hover {
+  color: rgb(16, 117, 16);
+  font-weight: bold;
+}
